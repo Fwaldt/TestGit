@@ -57,24 +57,28 @@
     <Text UId="31"> 3rd Modif</Text>
   </LineComment>
   <NewLine UId="32" />
-  <Access Scope="GlobalVariable" UId="33">
-    <Symbol UId="34">
-      <Component Name="Tag_1" UId="35">
-        <BooleanAttribute Name="HasQuotes" UId="36">true</BooleanAttribute>
+  <LineComment UId="33">
+    <Text UId="34"> 4th modif</Text>
+  </LineComment>
+  <NewLine UId="35" />
+  <Access Scope="GlobalVariable" UId="36">
+    <Symbol UId="37">
+      <Component Name="Tag_1" UId="38">
+        <BooleanAttribute Name="HasQuotes" UId="39">true</BooleanAttribute>
       </Component>
     </Symbol>
   </Access>
-  <Blank UId="37" />
-  <Token Text=":=" UId="38" />
-  <Blank UId="39" />
-  <Access Scope="GlobalVariable" UId="40">
-    <Symbol UId="41">
-      <Component Name="Tag_1" UId="42">
-        <BooleanAttribute Name="HasQuotes" UId="43">true</BooleanAttribute>
+  <Blank UId="40" />
+  <Token Text=":=" UId="41" />
+  <Blank UId="42" />
+  <Access Scope="GlobalVariable" UId="43">
+    <Symbol UId="44">
+      <Component Name="Tag_1" UId="45">
+        <BooleanAttribute Name="HasQuotes" UId="46">true</BooleanAttribute>
       </Component>
     </Symbol>
   </Access>
-  <Token Text=";" UId="44" />
+  <Token Text=";" UId="47" />
 </StructuredText></NetworkSource>
           <ProgrammingLanguage>SCL</ProgrammingLanguage>
         </AttributeList>

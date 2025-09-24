@@ -51,7 +51,7 @@
   <NewLine UId="26" />
   <Access Scope="GlobalVariable" UId="27">
     <Symbol UId="28">
-      <Component Name="Tag_1" UId="29">
+      <Component Name="Tag_2" UId="29">
         <BooleanAttribute Name="HasQuotes" UId="30">true</BooleanAttribute>
       </Component>
     </Symbol>

@@ -41,26 +41,32 @@
       <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
         <AttributeList>
           <NetworkSource><StructuredText xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/StructuredText/v4">
-  <Access Scope="Call" UId="21">
-    <CallInfo UId="22" BlockType="FC">
-      <Instance Scope="GlobalVariable" UId="24">
-        <Component Name="LBP_CallBackAuxFunc" UId="23" />
-      </Instance>
-      <Token Text="(" UId="25" />
-      <NamelessParameter UId="26">
-        <Access Scope="GlobalVariable" UId="27">
-          <Symbol UId="28">
-            <Component Name="Tag_3" UId="29">
-              <BooleanAttribute Name="HasQuotes" UId="30">true</BooleanAttribute>
-            </Component>
-          </Symbol>
-        </Access>
-      </NamelessParameter>
-      <Token Text=")" UId="31" />
-    </CallInfo>
+  <LineComment UId="21">
+    <Text UId="22"> Comment</Text>
+  </LineComment>
+  <NewLine UId="23" />
+  <LineComment UId="24">
+    <Text UId="25"> Modif titre</Text>
+  </LineComment>
+  <NewLine UId="26" />
+  <Access Scope="GlobalVariable" UId="27">
+    <Symbol UId="28">
+      <Component Name="Tag_1" UId="29">
+        <BooleanAttribute Name="HasQuotes" UId="30">true</BooleanAttribute>
+      </Component>
+    </Symbol>
   </Access>
-  <Token Text=";" UId="32" />
-  <NewLine UId="33" />
+  <Blank UId="31" />
+  <Token Text=":=" UId="32" />
+  <Blank UId="33" />
+  <Access Scope="GlobalVariable" UId="34">
+    <Symbol UId="35">
+      <Component Name="Tag_1" UId="36">
+        <BooleanAttribute Name="HasQuotes" UId="37">true</BooleanAttribute>
+      </Component>
+    </Symbol>
+  </Access>
+  <Token Text=";" UId="38" />
 </StructuredText></NetworkSource>
           <ProgrammingLanguage>SCL</ProgrammingLanguage>
         </AttributeList>
